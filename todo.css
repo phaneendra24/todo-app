@@ -32,20 +32,12 @@
     align-items: center;
   }
   form input,
-  button {
+  .add-btn {
     padding: 0.8rem;
     font-size: 20px;
   }
-  button {
-    padding: 0.9rem;
-  }
-  button {
-    background-color: white;
+  .add-btn:hover   {
     border-style: none;
-    cursor: pointer;
-    transition: all 0.3sec ease;
-  }
-  form button:hover {
     background: #43c6ac;
     color: white;
   }
@@ -70,17 +62,19 @@
     padding-left: 0.5rem;
     padding-right: 0.3rem;
   }
-  .com-button {
-    background: rgb(182, 236, 129);
+
+  .todo-list{
+    width: 80%;
+    height: 60vh;
   }
-  .del-button {
-    color: white;
-    background: red;
+  .content-div{
+    width: 400px;
+    display: flex;
+    align-content: space-between;
+    
   }
-  .fa-trash {
-    pointer-events: none;
-  }
-  .done {
-    text-decoration: line-through;
-    opacity: 0.5;
+  .checkbtn{
+    background-color: white;
+    margin-left: 3rem;
+    margin-right: 3rem;
   }
